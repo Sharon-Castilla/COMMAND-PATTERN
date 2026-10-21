@@ -12,7 +12,6 @@ public class ConsultarSaldoCommand implements Command {
 
     @Override
     public void deshacer() {
-        // consultar no cambia nada, no hay nada que deshacer
         System.out.println("Consultar saldo no se puede deshacer");
     }
 }
